@@ -11,25 +11,34 @@
 		F39A65DD264AC01A00F7F879 /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A65DC264AC01A00F7F879 /* PlantCell.swift */; };
 		F39A65E0264AC02400F7F879 /* PlantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39A65DF264AC02400F7F879 /* PlantCell.xib */; };
 		F39A65E3264AD3C500F7F879 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A65E2264AD3C500F7F879 /* ImageCache.swift */; };
-		F39A65E62654122D00F7F879 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A65E52654122D00F7F879 /* SegmentedControlView.swift */; };
-		F39A65E92654123B00F7F879 /* SegmentedControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39A65E82654123B00F7F879 /* SegmentedControlView.xib */; };
+		F39A65FD26541C5B00F7F879 /* TapeiPlantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A65FC26541C5B00F7F879 /* TapeiPlantTests.swift */; };
 		F3F3348C2648388600661ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3348B2648388600661ABA /* AppDelegate.swift */; };
 		F3F3348E2648388600661ABA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3348D2648388600661ABA /* SceneDelegate.swift */; };
 		F3F334902648388600661ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3348F2648388600661ABA /* ViewController.swift */; };
 		F3F334932648388600661ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F334912648388600661ABA /* Main.storyboard */; };
 		F3F334952648388700661ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F334942648388700661ABA /* Assets.xcassets */; };
 		F3F334982648388700661ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F334962648388700661ABA /* LaunchScreen.storyboard */; };
-		F3F334A1264838AA00661ABA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F334A0264838AA00661ABA /* APIService.swift */; };
 		F3F334A426484A1100661ABA /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F334A326484A1100661ABA /* Plant.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39A65FF26541C5B00F7F879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F334802648388600661ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F334872648388600661ABA;
+			remoteInfo = TapeiPlant;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F39A65D72649983500F7F879 /* PlantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlantViewModel.swift; path = TapeiPlant/PlantViewModel.swift; sourceTree = SOURCE_ROOT; };
 		F39A65DC264AC01A00F7F879 /* PlantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
 		F39A65DF264AC02400F7F879 /* PlantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlantCell.xib; sourceTree = "<group>"; };
 		F39A65E2264AD3C500F7F879 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		F39A65E52654122D00F7F879 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
-		F39A65E82654123B00F7F879 /* SegmentedControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedControlView.xib; sourceTree = "<group>"; };
+		F39A65FA26541C5B00F7F879 /* TapeiPlantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapeiPlantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39A65FC26541C5B00F7F879 /* TapeiPlantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeiPlantTests.swift; sourceTree = "<group>"; };
+		F39A65FE26541C5B00F7F879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3F334882648388600661ABA /* TapeiPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapeiPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F3348B2648388600661ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3F3348D2648388600661ABA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,11 +47,17 @@
 		F3F334942648388700661ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3F334972648388700661ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3F334992648388700661ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3F334A0264838AA00661ABA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		F3F334A326484A1100661ABA /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F39A65F726541C5B00F7F879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3F334852648388600661ABA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +76,42 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		F39A65ED26541B4800F7F879 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F39A65E2264AD3C500F7F879 /* ImageCache.swift */,
+				F3F334A326484A1100661ABA /* Plant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F39A65EE26541B5A00F7F879 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F39A65DC264AC01A00F7F879 /* PlantCell.swift */,
+				F39A65DF264AC02400F7F879 /* PlantCell.xib */,
+				F3F3348B2648388600661ABA /* AppDelegate.swift */,
+				F3F3348D2648388600661ABA /* SceneDelegate.swift */,
+				F3F3348F2648388600661ABA /* ViewController.swift */,
+				F3F334912648388600661ABA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F39A65FB26541C5B00F7F879 /* TapeiPlantTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39A65FC26541C5B00F7F879 /* TapeiPlantTests.swift */,
+				F39A65FE26541C5B00F7F879 /* Info.plist */,
+			);
+			path = TapeiPlantTests;
+			sourceTree = "<group>";
+		};
 		F3F3347F2648388600661ABA = {
 			isa = PBXGroup;
 			children = (
 				F3F3348A2648388600661ABA /* TapeiPlant */,
+				F39A65FB26541C5B00F7F879 /* TapeiPlantTests */,
 				F3F334892648388600661ABA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				F3F334882648388600661ABA /* TapeiPlant.app */,
+				F39A65FA26541C5B00F7F879 /* TapeiPlantTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,21 +128,12 @@
 		F3F3348A2648388600661ABA /* TapeiPlant */ = {
 			isa = PBXGroup;
 			children = (
+				F39A65EE26541B5A00F7F879 /* View */,
+				F39A65ED26541B4800F7F879 /* Model */,
 				F39A65D62649982300F7F879 /* ViewModel */,
-				F3F3348B2648388600661ABA /* AppDelegate.swift */,
-				F3F3348D2648388600661ABA /* SceneDelegate.swift */,
-				F3F3348F2648388600661ABA /* ViewController.swift */,
-				F3F334912648388600661ABA /* Main.storyboard */,
 				F3F334942648388700661ABA /* Assets.xcassets */,
 				F3F334962648388700661ABA /* LaunchScreen.storyboard */,
 				F3F334992648388700661ABA /* Info.plist */,
-				F3F334A0264838AA00661ABA /* APIService.swift */,
-				F3F334A326484A1100661ABA /* Plant.swift */,
-				F39A65DC264AC01A00F7F879 /* PlantCell.swift */,
-				F39A65DF264AC02400F7F879 /* PlantCell.xib */,
-				F39A65E2264AD3C500F7F879 /* ImageCache.swift */,
-				F39A65E52654122D00F7F879 /* SegmentedControlView.swift */,
-				F39A65E82654123B00F7F879 /* SegmentedControlView.xib */,
 			);
 			path = TapeiPlant;
 			sourceTree = "<group>";
@@ -102,6 +141,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F39A65F926541C5B00F7F879 /* TapeiPlantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39A660126541C5B00F7F879 /* Build configuration list for PBXNativeTarget "TapeiPlantTests" */;
+			buildPhases = (
+				F39A65F626541C5B00F7F879 /* Sources */,
+				F39A65F726541C5B00F7F879 /* Frameworks */,
+				F39A65F826541C5B00F7F879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39A660026541C5B00F7F879 /* PBXTargetDependency */,
+			);
+			name = TapeiPlantTests;
+			productName = TapeiPlantTests;
+			productReference = F39A65FA26541C5B00F7F879 /* TapeiPlantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F3F334872648388600661ABA /* TapeiPlant */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3F3349C2648388700661ABA /* Build configuration list for PBXNativeTarget "TapeiPlant" */;
@@ -128,6 +185,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					F39A65F926541C5B00F7F879 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F3F334872648388600661ABA;
+					};
 					F3F334872648388600661ABA = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -147,11 +208,19 @@
 			projectRoot = "";
 			targets = (
 				F3F334872648388600661ABA /* TapeiPlant */,
+				F39A65F926541C5B00F7F879 /* TapeiPlantTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F39A65F826541C5B00F7F879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3F334862648388600661ABA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,7 +228,6 @@
 				F3F334982648388700661ABA /* LaunchScreen.storyboard in Resources */,
 				F39A65E0264AC02400F7F879 /* PlantCell.xib in Resources */,
 				F3F334952648388700661ABA /* Assets.xcassets in Resources */,
-				F39A65E92654123B00F7F879 /* SegmentedControlView.xib in Resources */,
 				F3F334932648388600661ABA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,23 +235,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F39A65F626541C5B00F7F879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39A65FD26541C5B00F7F879 /* TapeiPlantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3F334842648388600661ABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F39A65DD264AC01A00F7F879 /* PlantCell.swift in Sources */,
-				F39A65E62654122D00F7F879 /* SegmentedControlView.swift in Sources */,
 				F3F334902648388600661ABA /* ViewController.swift in Sources */,
 				F39A65E3264AD3C500F7F879 /* ImageCache.swift in Sources */,
 				F3F3348C2648388600661ABA /* AppDelegate.swift in Sources */,
 				F3F334A426484A1100661ABA /* Plant.swift in Sources */,
-				F3F334A1264838AA00661ABA /* APIService.swift in Sources */,
 				F39A65D82649983500F7F879 /* PlantViewModel.swift in Sources */,
 				F3F3348E2648388600661ABA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39A660026541C5B00F7F879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F334872648388600661ABA /* TapeiPlant */;
+			targetProxy = F39A65FF26541C5B00F7F879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F3F334912648388600661ABA /* Main.storyboard */ = {
@@ -205,6 +287,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F39A660226541C5B00F7F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6VPYXD3CW;
+				INFOPLIST_FILE = TapeiPlantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterChen.TapeiPlantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapeiPlant.app/TapeiPlant";
+			};
+			name = Debug;
+		};
+		F39A660326541C5B00F7F879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6VPYXD3CW;
+				INFOPLIST_FILE = TapeiPlantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PeterChen.TapeiPlantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapeiPlant.app/TapeiPlant";
+			};
+			name = Release;
+		};
 		F3F3349A2648388700661ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -362,6 +484,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F39A660126541C5B00F7F879 /* Build configuration list for PBXNativeTarget "TapeiPlantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39A660226541C5B00F7F879 /* Debug */,
+				F39A660326541C5B00F7F879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F3F334832648388600661ABA /* Build configuration list for PBXProject "TapeiPlant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

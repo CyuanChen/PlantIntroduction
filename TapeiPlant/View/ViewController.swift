@@ -13,10 +13,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     private var viewModel: PlantViewModel?
     var spinner = UIActivityIndicatorView(style: .large)
     var observer: NSKeyValueObservation?
-    var largeTitleView: UIView?
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.largeTitleView = UINib(nibName: "SegmentedControlView", bundle: Bundle.main).instantiate(withOwner: self, options: nil).first as? UIView
         let barApperance = UINavigationBarAppearance()
         barApperance.backgroundColor = .systemGreen
         self.tableView.delegate = self
@@ -84,18 +82,13 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = UITableViewCell()
-//        cell.backgroundColor = .gray
-//        return cell
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "PlantCell") as? PlantCell else { return UITableViewCell() }
         cell.updateCell(self.viewModel?.plants?[indexPath.row])
         return cell
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        print(indexPath.row)
         guard let totalCount = self.viewModel?.plants?.count else { return }
-        print("Count: \(totalCount - 1)")
         if indexPath.row == totalCount - 1 {
             self.getData()
         }
